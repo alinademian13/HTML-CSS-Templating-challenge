@@ -1,0 +1,98 @@
+/* ----------------------- FOOTER ------------------- */
+
+footer {
+    grid-area: footer;
+    background-color: #707070;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+            "first"
+            "second"
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+}
+
+.footer-info {
+    display: none;
+}
+
+footer > .item {
+    padding: 30px 5px;
+}
+
+.carrot-img {
+    width: 15rem;
+    margin: 0 4rem;
+    float: right;
+}
+
+.second > p {
+    text-decoration: underline;
+}
+
+.first > div:first-child > p {
+    float: right;
+    line-height: normal;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+/* ___________________________________________________________ */
+
+@media only screen and (min-width: 992px) {
+
+/* -------------------- FOOTER -------------------- */
+
+    footer {
+        font-size: 0.8rem;
+    }
+
+    .item {
+        margin-top: 0;
+    }
+
+    footer > .item {
+        padding: 20px 5px 0 5px;
+    }
+
+    .footer-info {
+        display: inline-block;
+        text-align: left;
+        margin: 0 20px;
+        line-height: normal;
+    }
+
+    .first {
+        display: grid;
+        grid-template-columns: 30% 40% auto;
+        grid-template-rows: auto;
+    }
+
+    .carrot-img {
+        width: 6rem;
+        margin: 0 10rem;
+        float: right;
+    }
+
+    .second {
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-rows: auto;
+    }
+
+    .second > p {
+        text-align: left;
+        margin: 0 20px;
+    }
+
+}
