@@ -1,6 +1,4 @@
 
-/* ---------------------- MAIN ------------------- */
-
 main {
     background-color: #CBD8C1;
 }
@@ -24,27 +22,24 @@ li {
 
 .title-btn {
     margin: 25px;
+    text-align: center;
 }
 
 .title-btn > h2 {
-    margin: 40px 20px;
+    margin: 15px 0;
     font-size: 4rem;
+    text-align: left;
 }
 
 .more-btn {
-    margin: 0 auto;
-    font-size: 2.5rem;
-    padding: 25px 80px;
-    display: block;
-    border: none;
-    background-color: #EC7A23;
-    color: white;
-    border-radius: 5px;
-} 
-
-a {
     color: white;
     text-decoration: none;
+    padding: 25px 80px;
+    background-color: #EC7A23;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    display: inline-block;
 }
 
 .pagination {
@@ -86,13 +81,9 @@ a + a {
     border-bottom-right-radius: 5px;
 }
 
-/* ----------------------- FOOTER ------------------- */
-
 /* ___________________________________________________________ */
 
 @media only screen and (min-width: 992px) {
-
-    /* -------------------- MAIN -------------------- */
 
     .search {
         display: flex;
