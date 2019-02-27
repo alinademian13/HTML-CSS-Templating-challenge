@@ -23,6 +23,11 @@ header a {
     color: white;
 }
 
+a:visited, a:hover {
+    color: white;
+    border: none !important;
+}
+
 /* ___________________________________________________________ */
 
 @media only screen and (min-width: 992px) {

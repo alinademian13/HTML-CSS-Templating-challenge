@@ -2,7 +2,6 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     height: 100%;
-
 }
 
 .main-container {
@@ -29,6 +28,15 @@ main {
     background-color: #EC7A23;
     border: none;
     border-radius: 5px;
+}
+
+.more-btn:visited, .more-btn:active {
+    background-color: #EC7A23 !important;
+}
+
+.more-btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .card-title {
@@ -109,6 +117,12 @@ main {
     .search-input {
         margin-right: 0 !important;
         border-radius: 2px;
+    }
+
+    .search-input:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 0 !important;
     }
 }
 

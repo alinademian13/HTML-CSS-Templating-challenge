@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Bunbun's</title>
+
+
+    <link rel="stylesheet" type="text/css" href="../css-reset.css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link rel="stylesheet" type="text/css" href="details-style.css" />
+    
+    
+</head>
+
+<body>
+
+    <div class="main-container container-fluid">
+
+        <header class="mx-auto">
+            <nav class="navbar navbar-expand-lg style-navbar sticky-top mt-sm-2 px-sm-5 mt-lg-0">
+                <a class="navbar-brand title-logo mr-lg-5" href="home.html">Bunbun's</a>
+                <button class="navbar-toggler menu-icon mr-lg-5" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+                        </svg>
+                    </span>
+                </button>
+                
+                <div class="collapse navbar-collapse mt-lg-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link mr-lg-5" href="home.html">Home</a>
+                        <a class="nav-item nav-link mr-lg-5" href="#">List</a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse user-section mt-lg-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-lg-right">
+                        <a class="nav-item nav-link mr-lg-5 cart-icon" href="#">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path>
+                            </svg>
+                            Cart
+                            <span class="badge notification">7</span>
+                        </a>
+                        <a class="nav-item nav-link" href="#">Log in</a>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+
+        <main class="py-sm-4 px-sm-3 px-lg-5">
+
+            <div class="card mb-3 m-sm-5 details-card">
+                <img class="card-img-top" src="../img/carrots-1329704-640x480.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-sm-center display-4 font-weight-bold">Yaya Hybrid</h5>
+                    <p class="card-text my-sm-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem necessitatibus voluptates, a quasi recusandae magnam porro rerum ad quos, optio odit quo, suscipit dolorem alias maiores sunt natus iure? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut, recusandae nostrum ratione obcaecati nemo labore earum perferendis voluptates accusantium, ullam, voluptate officiis nihil repudiandae sed tenetur. Nam, rem natus?</p>
+                    <p class="card-text mt-sm-4 price">Price: <span class="font-weight-bold">32¥</span></p>
+                    <div class="text-sm-center text-lg-right">
+                        <a href="#" class="more-btn btn btn-primary my-sm-4 my-lg-0 px-lg-4 py-lg-2 add-cart">Add to cart
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card w-100 my-sm-4 px-sm-5 comment-card">
+                <div class="card-body">
+                    <img src="../img/bunnies-1394776-640x480.jpg" class="rounded-circle w-25 mr-sm-3 mb-sm-4" alt="Fluffy bunny">
+                    <h5 class="card-title d-sm-inline-block text-left bunny-name font-weight-bold mb-sm-4">Snoop</h5>
+                    <p class="card-text">Fluff, fluff, fluff fluffy bunny. I'm a fluffy bunny! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut sint commodi. Libero dolorum quod perspiciatis doloribus quos officia, numquam animi ullam repellendus saepe accusantium impedit reprehenderit, blanditiis tempora nobis.</p>
+                </div>
+            </div>
+            <div class="card w-100 my-sm-4 px-sm-5 comment-card">
+                <div class="card-body">
+                    <img src="../img/mini-lop-bunny-1544971-640x608.jpg" class="rounded-circle w-25 mr-sm-3 mb-sm-4" alt="Fluffy bunny">
+                    <h5 class="card-title d-sm-inline-block text-left bunny-name font-weight-bold mb-sm-4">Comet</h5>
+                    <p class="card-text">Fluff, fluff, fluff fluffy bunny. I'm a fluffy bunny! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut sint commodi. Libero dolorum quod perspiciatis doloribus quos officia, numquam animi ullam repellendus saepe accusantium impedit reprehenderit, blanditiis tempora nobis.</p>
+                </div>
+            </div>
+            <div class="card w-100 my-sm-4 px-sm-5 comment-card">
+                <div class="card-body">
+                    <img src="../img/paule-rabbit-1381844-639x923.jpg" class="bunny-img rounded-circle w-25 mr-sm-3 mb-sm-4" alt="Fluffy bunny">
+                    <h5 class="card-title d-sm-inline-block text-left bunny-name font-weight-bold mb-sm-4">Sunny</h5>
+                    <p class="card-text">Fluff, fluff, fluff fluffy bunny. I'm a fluffy bunny! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut sint commodi. Libero dolorum quod perspiciatis doloribus quos officia, numquam animi ullam repellendus saepe accusantium impedit reprehenderit, blanditiis tempora nobis.</p>
+                </div>
+            </div>
+
+            
+            <form class="comment-form mx-sm-5 px-sm-3 my-sm-5">
+                <h1 class="py-5">Leave a comment</h1>
+                <div class="form-group mb-5">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group my-5">
+                    <label for="formGroupExampleInput2">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group my-5">
+                    <label for="exampleFormControlTextarea1">Comment</label>
+                    <textarea class="form-control" rows="10"></textarea>
+                </div>
+            </form>
+
+
+        </main>
+
+        <footer class="mt-auto mb-auto footer">
+            <div class="container">
+                <div class="row py-sm-4 py-lg-0 pt-lg-4">
+                    <div class="col-sm-6 col-lg-4 text-sm-right px-sm-4 px-lg-2">
+                        <p>RSS Feed</p>
+                        <p>Twitter</p>
+                        <p>Contact</p>
+                    </div>
+                    <div class="d-sm-none d-lg-inline-block col-lg-5">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aperiam sunt repudiandae eligendi tempore numquam quae dignissimos expedita nihil adipisci voluptates magnam assumenda placeat sequi, nulla suscipit. Officiis, ut deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque sit ex ut odio non error maiores, asperiores modi, tenetur assumenda rerum saepe nulla quas vel esse id nesciunt alias! Numquam.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 carrot-img px-4 text-lg-right">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="carrot"
+                            class="svg-inline--fa fa-carrot fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M298.2 156.6c-52.7-25.7-114.5-10.5-150.2 32.8l55.2 55.2c6.3 6.3 6.3 16.4 0 22.6-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7L130.4 217 2.3 479.7c-2.9 6-3.1 13.3 0 19.7 5.4 11.1 18.9 15.7 30 10.3l133.6-65.2-49.2-49.2c-6.3-6.2-6.3-16.4 0-22.6 6.3-6.2 16.4-6.2 22.6 0l57 57 102-49.8c24-11.7 44.5-31.3 57.1-57.1 30.1-61.7 4.5-136.1-57.2-166.2zm92.1-34.9C409.8 81 399.7 32.9 360 0c-50.3 41.7-52.5 107.5-7.9 151.9l8 8c44.4 44.6 110.3 42.4 151.9-7.9-32.9-39.7-81-49.8-121.7-30.3z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center mb-lg-1">
+                    <div class="col-lg-4"></div>
+                    <div class="col-sm-12 col-lg-8 text-lg-left">
+                        <p><u>© 2007-2019 Bunbun's & CO</u></p>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>
