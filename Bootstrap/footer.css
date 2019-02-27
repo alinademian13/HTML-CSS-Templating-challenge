@@ -1,0 +1,24 @@
+footer {
+    background-color: #707070;
+    color: white;
+    grid-area: footer;
+    font-size: 2rem;
+}
+
+.carrot-img svg {
+    width: 11rem;
+}
+
+@media only screen and (min-width: 992px) {
+
+    footer {
+        font-size: 0.5rem;
+    }
+    .carrot-img svg {
+        width: 3rem;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+}

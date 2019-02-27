@@ -1,0 +1,51 @@
+header {
+    grid-area: header;
+    width: 100%;
+    background-color: #434A3E;
+    color: white;
+}
+
+.menu-icon {
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+header a {
+    color: white;
+}
+
+.title-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+/* ___________________________________________________________ */
+
+@media only screen and (min-width: 992px) {
+    .title-logo {
+        font-size: 2rem;
+    }
+
+    .user-section {
+        flex-grow: 0;
+    }
+
+    .notification {
+        position: absolute;
+        font-size: 0.3em;
+        top: 30px;
+        background-color: #EC7A23;
+        padding: 5px;
+        border-radius: 100%;
+        color: #fff;
+        right: 150px;
+    }
+
+    .cart-icon {
+        color: white;
+    }
+
+    .cart-icon svg {
+        width: 25px;
+    }
+}

@@ -1,0 +1,55 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.main-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr auto;
+    grid-template-areas: 
+            "main"
+            "footer";
+}
+
+main {
+    background-color: #CBD8C1; 
+    grid-area: main;  
+}
+
+.title {
+    color: #707070;
+}
+
+.bunbun-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 10rem;
+}
+
+.bunbun-desc {
+    font-size: 3rem;
+}
+
+.see-btn {
+    font-size: 4rem;
+    background-color: #EC7A23;
+    border: none;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .bunbun-title {
+        font-size: 3rem;
+    }
+
+    .bunbun-desc {
+        font-size: 1rem;
+    }
+
+    .see-btn {
+        font-size: 1rem;
+    }
+
+}
