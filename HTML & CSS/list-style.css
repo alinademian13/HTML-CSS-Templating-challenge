@@ -18,6 +18,9 @@ li {
 .list-img img {
     width: 100%;
     border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 60vw;
+    object-fit: cover;
 }
 
 .title-btn {
@@ -147,7 +150,7 @@ a + a {
 
     .list-img img {
         border-radius: 5px 5px 0 0;
-        /* object-fit: contain; */
+        height: 20vw;
     }
 
     .title-btn > h2 {
