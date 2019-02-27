@@ -38,6 +38,11 @@ main {
     border: none;
 }
 
+.see-btn:visited, .see-btn:hover {
+    background-color: #EC7A23 !important;
+    border: none !important;
+}
+
 @media only screen and (min-width: 992px) {
 
     .bunbun-title {

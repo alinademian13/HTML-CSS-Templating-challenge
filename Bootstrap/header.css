@@ -19,6 +19,10 @@ header a {
     font-size: 4rem;
 }
 
+.title-logo:hover {
+    color: white;
+}
+
 /* ___________________________________________________________ */
 
 @media only screen and (min-width: 992px) {

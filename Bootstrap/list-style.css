@@ -25,7 +25,7 @@ main {
 
 .more-btn {
     padding: 25px 80px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background-color: #EC7A23;
     border: none;
     border-radius: 5px;
@@ -33,6 +33,7 @@ main {
 
 .card-title {
     color: #707070;
+    font-size: 4.5rem;
 }
 
 .card-style {
@@ -51,4 +52,57 @@ main {
     background-color: #434A3E !important;
     border-color: #434A3E !important;
 }
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+/* ___________________________________________________________ */
+
+@media only screen and (min-width: 992px) {
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-style {
+        border-radius: 5px;
+        border: 1px solid #9f9f9f;
+    }
+
+    /* Because of .col-lg-4 that leaves a margin right and left */
+    /* .card-margin-right {
+        margin-right: -10px;
+    } */
+
+    .more-btn {
+        padding: 15px 70px !important;
+        font-size: 1rem;
+    }
+
+    .main-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #434A3E !important;
+        margin-left: -15px;
+    }
+
+    .search-svg {
+        width: 40px;
+        background-color: white;
+        border: 1px solid #cecccc;
+        border-radius: 2px;
+        margin-right: -15px !important;
+    }
+
+    .search-svg svg {
+        color: #707070;
+    }
+
+    .search-input {
+        margin-right: 0 !important;
+        border-radius: 2px;
+    }
+}
+
 
