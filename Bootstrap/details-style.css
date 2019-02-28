@@ -90,3 +90,21 @@ main {
     box-shadow: none;
     border: 1px solid #707070;
 }
+
+.bunny-img {
+   overflow: hidden;
+   height: 225px;
+   width: 225px;
+}
+
+.bunny-card {
+    margin-left: 0;
+    max-width: 100%;
+}
+
+.bunny-name-wrapper {
+    position: absolute;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
