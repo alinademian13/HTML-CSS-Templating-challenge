@@ -30,7 +30,7 @@ main {
 .card-body {
     background-color: #CBD8C1;
     border: none !important; 
-    /* NOT WORKING */
+    /* NOT WORKING: on mobile there's a white border */
 }
 
 .card-text, .comment-form label, .comment-form input {
@@ -66,6 +66,11 @@ main {
     width: 25px;
 }
 
+.bunny-img {
+    height: 250px;
+    width: 250px;
+}
+
 .comment-card {
     border: none;
     background-color: #CBD8C1;
@@ -91,20 +96,55 @@ main {
     border: 1px solid #707070;
 }
 
-.bunny-img {
-   overflow: hidden;
-   height: 225px;
-   width: 225px;
-}
+/* ___________________________________________________________ */
 
-.bunny-card {
-    margin-left: 0;
-    max-width: 100%;
-}
+@media only screen and (min-width: 992px) {
 
-.bunny-name-wrapper {
-    position: absolute;
-    top: 30%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    .card-img-top {
+        background-color: #CBD8C1;
+    } 
+
+    .card-title {
+        font-size: 28px;
+    }
+
+    .card-text {
+        font-size: 19px;
+    }
+
+    .add-cart {
+        font-size: 1rem;
+    }
+
+    .price-add-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .bunny-img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .bunny-name {
+        font-size: 24px;
+    }
+
+    .comment-form {
+        width: 50%;
+    }
+
+    .comment-form h1 {
+        font-size: 30px;
+    }
+
+    .form-group label {
+        font-size: 18px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+
 }
